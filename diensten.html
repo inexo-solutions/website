@@ -5,13 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Diensten | Inexo Solutions</title>
   <meta name="description" content="IT-advies, automatisering, AI-tools, apps en websites, en content en video.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Diensten | Inexo Solutions">
+  <meta property="og:description" content="IT-advies, automatisering, AI-tools, apps en websites, en content en video.">
+  <meta property="og:url" content="https://inexo-solutions.netlify.app/diensten.html">
+  <meta property="og:image" content="https://inexo-solutions.netlify.app/assets/og-image.png">
+  <meta property="og:locale" content="nl_NL">
+  <meta name="theme-color" content="#2D5BFF">
   <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
+  <a class="skip" href="#main">Naar de inhoud</a>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/"><img src="/assets/logo.svg" alt="" width="40" height="21">Inexo Solutions</a>
@@ -23,67 +29,129 @@
       </nav>
     </div>
   </header>
-  <main>
-    <section class="section">
+  <main id="main">
+    <section class="section page-top">
       <div class="wrap">
         <h1>Diensten</h1>
-        <p class="intro">Van een snel advies tot een complete oplossing.</p>
-        <ul class="services">
-          <li>
-            <h3>IT-advies</h3>
-            <div>
-              <p>Een eerlijk advies over je systemen, software en beveiliging.</p>
-              <ul>
-                <li>Welke tools passen bij je bedrijf</li>
-                <li>Accounts, back-ups en beveiliging op orde</li>
-                <li>Hulp bij aanschaf en overstap</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <h3>Automatisering</h3>
-            <div>
-              <p>Terugkerend handwerk laten verdwijnen.</p>
-              <ul>
-                <li>Koppelingen tussen je apps</li>
-                <li>Formulieren, mails en administratie automatiseren</li>
-                <li>Overzichtelijke werkprocessen</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <h3>AI-tools</h3>
-            <div>
-              <p>AI inzetten waar het echt tijd scheelt.</p>
-              <ul>
-                <li>Uitleg en training voor je team</li>
-                <li>AI-assistenten voor teksten en klantvragen</li>
-                <li>Veilig omgaan met bedrijfsgegevens</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <h3>Apps en websites</h3>
-            <div>
-              <p>Een website of kleine app die doet wat je nodig hebt.</p>
-              <ul>
-                <li>Websites voor zzp en mkb</li>
-                <li>Interne tools en dashboards</li>
-                <li>Onderhoud en hosting</li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <h3>Content en video</h3>
-            <div>
-              <p>Beeld en video voor je website en social media.</p>
-              <ul>
-                <li>Video-editing</li>
-                <li>Korte content voor social media</li>
-              </ul>
-            </div>
-          </li>
+        <p class="intro">Van een snel advies tot een complete oplossing. Kies wat bij je past, of combineer.</p>
+        <ul class="jump" aria-label="Ga naar dienst">
+          <li><a href="#it-advies">IT-advies</a></li>
+          <li><a href="#automatisering">Automatisering</a></li>
+          <li><a href="#ai-tools">AI-tools</a></li>
+          <li><a href="#apps-en-websites">Apps en websites</a></li>
+          <li><a href="#content-en-video">Content en video</a></li>
         </ul>
+      </div>
+    </section>
+    <section class="section services-detail">
+      <div class="wrap">
+        <article class="service" id="it-advies">
+          <div class="service-head">
+            <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>
+            <h2>IT-advies</h2>
+            <p>Een eerlijk advies over je systemen, software en beveiliging.</p>
+            <p class="who">Voor ondernemers die twijfelen of hun IT nog goed geregeld is.</p>
+          </div>
+          <div class="service-body">
+            <h3>Wat je krijgt</h3>
+            <ul class="checks">
+              <li>Een check van je huidige systemen</li>
+              <li>Advies over software en apparatuur</li>
+              <li>Accounts, back-ups en beveiliging op orde</li>
+              <li>Hulp bij een overstap</li>
+            </ul>
+            <div class="eg">
+              <h3>Bijvoorbeeld</h3>
+              <p>Van losse mailboxen naar één gedeelde werkomgeving voor het hele team.</p>
+            </div>
+          </div>
+        </article>
+        <article class="service" id="automatisering">
+          <div class="service-head">
+            <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 0 1-14 5.3"/><path d="M4 12a8 8 0 0 1 14-5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg>
+            <h2>Automatisering</h2>
+            <p>Terugkerend handwerk laten verdwijnen.</p>
+            <p class="who">Voor bedrijven die veel tijd kwijt zijn aan herhalend werk.</p>
+          </div>
+          <div class="service-body">
+            <h3>Wat je krijgt</h3>
+            <ul class="checks">
+              <li>Je werkprocessen in kaart</li>
+              <li>Koppelingen tussen je apps</li>
+              <li>Automatische mails, formulieren en administratie</li>
+            </ul>
+            <div class="eg">
+              <h3>Bijvoorbeeld</h3>
+              <p>Een aanvraag via je website komt vanzelf in je planning, en de klant krijgt direct een bevestiging.</p>
+            </div>
+          </div>
+        </article>
+        <article class="service" id="ai-tools">
+          <div class="service-head">
+            <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16l.7 2.3L22 19l-2.3.7L19 22l-.7-2.3L16 19l2.3-.7z"/></svg>
+            <h2>AI-tools</h2>
+            <p>AI inzetten waar het echt tijd scheelt.</p>
+            <p class="who">Voor ondernemers die AI willen gebruiken, maar niet weten waar ze moeten beginnen.</p>
+          </div>
+          <div class="service-body">
+            <h3>Wat je krijgt</h3>
+            <ul class="checks">
+              <li>Uitleg of een workshop voor jou of je team</li>
+              <li>Een AI-assistent voor teksten, mails en klantvragen</li>
+              <li>Afspraken over veilig gebruik van bedrijfsgegevens</li>
+            </ul>
+            <div class="eg">
+              <h3>Bijvoorbeeld</h3>
+              <p>Een assistent die conceptantwoorden op klantvragen schrijft, in jouw toon.</p>
+            </div>
+          </div>
+        </article>
+        <article class="service" id="apps-en-websites">
+          <div class="service-head">
+            <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/><path d="M10 13l-2 2 2 2M14 13l2 2-2 2"/></svg>
+            <h2>Apps en websites</h2>
+            <p>Een website of kleine app die doet wat je nodig hebt.</p>
+            <p class="who">Voor zzp en mkb die online beter gevonden willen worden of een eigen tool nodig hebben.</p>
+          </div>
+          <div class="service-body">
+            <h3>Wat je krijgt</h3>
+            <ul class="checks">
+              <li>Ontwerp en bouw van je website</li>
+              <li>Interne tools en dashboards</li>
+              <li>Hosting en onderhoud</li>
+            </ul>
+            <div class="eg">
+              <h3>Bijvoorbeeld</h3>
+              <p>Een eenvoudig dashboard met je omzet en openstaande facturen op één plek.</p>
+            </div>
+          </div>
+        </article>
+        <article class="service" id="content-en-video">
+          <div class="service-head">
+            <svg class="icon icon-lg" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9.5v5l4.5-2.5z"/></svg>
+            <h2>Content en video</h2>
+            <p>Beeld en video voor je website en social media.</p>
+            <p class="who">Voor bedrijven die beeld nodig hebben voor hun site of socials.</p>
+          </div>
+          <div class="service-body">
+            <h3>Wat je krijgt</h3>
+            <ul class="checks">
+              <li>Video-editing</li>
+              <li>Korte video's voor social media</li>
+              <li>Beeld voor je website</li>
+            </ul>
+            <div class="eg">
+              <h3>Bijvoorbeeld</h3>
+              <p>Een serie korte video's voor Instagram of LinkedIn.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="section cta alt">
+      <div class="wrap">
+        <h2>Twijfel je wat je nodig hebt?</h2>
+        <p>Vertel wat je wilt bereiken. Ik denk mee over de beste aanpak.</p>
         <div class="actions"><a class="btn" href="/contact.html">Vraag een voorstel aan</a></div>
       </div>
     </section>
@@ -93,6 +161,7 @@
       <p>Inexo Solutions, Buitenkaag</p>
       <p><a href="mailto:timo@inexosolutions.nl">timo@inexosolutions.nl</a></p>
       <p>KVK 42060394</p>
+      <p><a href="/privacy.html">Privacyverklaring</a></p>
     </div>
   </footer>
 </body>

@@ -5,13 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Inexo Solutions | IT, automatisering en AI voor ondernemers</title>
   <meta name="description" content="Inexo Solutions helpt ondernemers met IT-advies, automatisering, AI-tools en websites.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Inexo Solutions | IT, automatisering en AI voor ondernemers">
+  <meta property="og:description" content="Inexo Solutions helpt ondernemers met IT-advies, automatisering, AI-tools en websites.">
+  <meta property="og:url" content="https://inexo-solutions.netlify.app/">
+  <meta property="og:image" content="https://inexo-solutions.netlify.app/assets/og-image.png">
+  <meta property="og:locale" content="nl_NL">
+  <meta name="theme-color" content="#2D5BFF">
   <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="/assets/fonts/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/assets/styles.css">
 </head>
 <body>
+  <a class="skip" href="#main">Naar de inhoud</a>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="/"><img src="/assets/logo.svg" alt="" width="40" height="21">Inexo Solutions</a>
@@ -23,7 +29,7 @@
       </nav>
     </div>
   </header>
-  <main>
+  <main id="main">
     <section class="hero">
       <div class="wrap">
         <div class="tag">
@@ -41,29 +47,60 @@
         <h2>Waar ik je mee help</h2>
         <ul class="services">
           <li>
-            <h3>IT-advies</h3>
-            <p>Een eerlijk advies over je systemen, software en beveiliging.</p>
+            <a class="service-link" href="/diensten.html#it-advies">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v10H9l-5 4z"/><path d="M8 9h8M8 12h5"/></svg>
+              <h3>IT-advies</h3>
+              <p>Een eerlijk advies over je systemen, software en beveiliging.</p>
+            </a>
           </li>
           <li>
-            <h3>Automatisering</h3>
-            <p>Terugkerend handwerk laten verdwijnen.</p>
+            <a class="service-link" href="/diensten.html#automatisering">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20 12a8 8 0 0 1-14 5.3"/><path d="M4 12a8 8 0 0 1 14-5.3"/><path d="M18 3v4h-4M6 21v-4h4"/></svg>
+              <h3>Automatisering</h3>
+              <p>Terugkerend handwerk laten verdwijnen.</p>
+            </a>
           </li>
           <li>
-            <h3>AI-tools</h3>
-            <p>AI inzetten waar het echt tijd scheelt.</p>
+            <a class="service-link" href="/diensten.html#ai-tools">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/><path d="M19 16l.7 2.3L22 19l-2.3.7L19 22l-.7-2.3L16 19l2.3-.7z"/></svg>
+              <h3>AI-tools</h3>
+              <p>AI inzetten waar het echt tijd scheelt.</p>
+            </a>
           </li>
           <li>
-            <h3>Apps en websites</h3>
-            <p>Een website of kleine app die doet wat je nodig hebt.</p>
+            <a class="service-link" href="/diensten.html#apps-en-websites">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M7 6.5h.01M10 6.5h.01"/><path d="M10 13l-2 2 2 2M14 13l2 2-2 2"/></svg>
+              <h3>Apps en websites</h3>
+              <p>Een website of kleine app die doet wat je nodig hebt.</p>
+            </a>
           </li>
           <li>
-            <h3>Content en video</h3>
-            <p>Beeld en video voor je website en social media.</p>
+            <a class="service-link" href="/diensten.html#content-en-video">
+              <svg class="icon" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9.5v5l4.5-2.5z"/></svg>
+              <h3>Content en video</h3>
+              <p>Beeld en video voor je website en social media.</p>
+            </a>
           </li>
         </ul>
       </div>
     </section>
     <section class="section">
+      <div class="wrap example">
+        <div>
+          <h2>Wat automatisering oplevert</h2>
+          <p>Een klant vraagt een offerte aan. Zonder automatisering typ je alles over. Met automatisering gebeurt het vanzelf.</p>
+          <p><a href="/diensten.html#automatisering">Meer over automatisering</a></p>
+        </div>
+        <div class="flow" role="img" aria-label="Voorbeeld: een aanvraag via de website gaat automatisch naar je planning, en de klant krijgt direct een bevestiging.">
+          <div class="flow-step"><span class="flow-kind">Klant</span>Vult het formulier in op je website</div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-step auto"><span class="flow-kind">Automatisch</span>Aanvraag komt in je planning</div>
+          <div class="flow-arrow" aria-hidden="true"></div>
+          <div class="flow-step auto"><span class="flow-kind">Automatisch</span>Klant krijgt direct een bevestiging</div>
+        </div>
+      </div>
+    </section>
+    <section class="section alt">
       <div class="wrap">
         <h2>Zo werken we samen</h2>
         <ol class="steps">
@@ -74,12 +111,19 @@
         </ol>
       </div>
     </section>
+    <section class="section cta">
+      <div class="wrap">
+        <h2>Benieuwd wat ik voor je kan doen?</h2>
+        <div class="actions"><a class="btn" href="/contact.html">Plan een kennismaking</a></div>
+      </div>
+    </section>
   </main>
   <footer class="site-footer">
     <div class="wrap">
       <p>Inexo Solutions, Buitenkaag</p>
       <p><a href="mailto:timo@inexosolutions.nl">timo@inexosolutions.nl</a></p>
       <p>KVK 42060394</p>
+      <p><a href="/privacy.html">Privacyverklaring</a></p>
     </div>
   </footer>
 </body>
