@@ -1,6 +1,6 @@
 # Inexo Solutions website
 
-Website for Inexo Solutions: IT advice, automation, AI tools, apps/websites and content/video for small businesses. Site language: Dutch.
+Website for Inexo Solutions: IT advice, automation, custom tools, websites and content/video for small businesses. Site language: Dutch.
 
 Static HTML/CSS, no build step. Hosted on Netlify; every push to `main` goes live automatically.
 
@@ -9,14 +9,14 @@ Static HTML/CSS, no build step. Hosted on Netlify; every push to `main` goes liv
 | File | Page | Content |
 |---|---|---|
 | `index.html` | Home | Hero, services overview, automation example, 4-step way of working, call to action |
-| `diensten.html` | Diensten | Per service: icon, who it's for, what you get, an example. Anchors (`#automatisering` etc.) are linked from Home |
+| `diensten.html` | Diensten | Per service: icon, who it's for, "Waar ik bij help" (examples of tasks, not a fixed package), an example. Anchors (`#automatisering` etc.) are linked from Home |
 | `over.html` | Over mij | Short introduction of Timo |
 | `contact.html` | Contact | Contact form (Netlify Forms) |
 | `bedankt.html` | Bedankt | Shown after sending the form |
 | `privacy.html` | Privacyverklaring | Privacy statement (contact form, Netlify, rights) |
 | `404.html` | Not found | Shown by Netlify for unknown URLs |
 
-Services, in this order: IT-advies, Automatisering, AI-tools, Apps en websites, Content en video.
+Services, in this order: IT-advies, Automatisering, Tools op maat, Websites, Content en video.
 
 ## Design
 
