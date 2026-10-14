@@ -57,3 +57,7 @@ netlify.toml        Netlify settings
 - Contact: Netlify → Forms → enable form detection and set email notifications.
 - Add a custom domain.
 - Before going live: remove the noindex block from `netlify.toml`.
+
+## Later
+
+- Client portal: a separate web app (own repo) where clients log in to stay in touch and discuss projects. Likely Netlify Identity or Supabase for login and data.
