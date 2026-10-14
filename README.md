@@ -56,3 +56,4 @@ netlify.toml        Netlify settings
 - Check and finalise the copy, especially "Over mij".
 - Contact: Netlify → Forms → enable form detection and set email notifications.
 - Add a custom domain.
+- Before going live: remove the noindex block from `netlify.toml`.
