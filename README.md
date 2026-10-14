@@ -58,6 +58,6 @@ netlify.toml        Netlify settings
 - Add a custom domain.
 - Before going live: remove the noindex block from `netlify.toml`.
 
-## Later
+## Future additions and improvements
 
 - Client portal: a separate web app (own repo) where clients log in to stay in touch and discuss projects. Likely Netlify Identity or Supabase for login and data.
