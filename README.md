@@ -40,7 +40,7 @@ Services, in this order: IT-advies, Automatisering, Tools op maat, Websites, Con
 
 **Layout rules**
 - Left-aligned content, max width 68rem.
-- Services as a list with dividers, not cards. Each service has a line icon (inline SVG, blue).
+- Home: services as cards (icon on blue tint, "Meer →"). Diensten: alternating rows, a blue-tint visual panel with a large line icon next to the text (swap for photos later).
 - Numbers only where there is a real sequence (the 4 steps).
 - Short copy: one idea per sentence, no jargon.
 - Works on mobile; visible keyboard focus.
