@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Inexo Solutions</title>
+  <meta name="description" content="Neem contact op met Inexo Solutions.">
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..700&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/"><img src="/assets/logo.svg" alt="" width="40" height="21">Inexo Solutions</a>
+      <nav class="nav" aria-label="Hoofdmenu">
+        <a href="/index.html">Home</a>
+        <a href="/diensten.html">Diensten</a>
+        <a href="/over.html">Over mij</a>
+        <a href="/contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="section">
+      <div class="wrap">
+        <h1>Contact</h1>
+        <p class="intro">Vertel kort waar je mee zit. Ik reageer binnen twee werkdagen.</p>
+        <form class="form" name="contact" method="POST" action="/bedankt.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hidden"><label>Niet invullen <input name="bot-field"></label></p>
+          <label>Naam <input name="naam" autocomplete="name" required></label>
+          <label>E-mail <input type="email" name="email" autocomplete="email" required></label>
+          <label>Bedrijf <input name="bedrijf" autocomplete="organization"></label>
+          <label>Bericht <textarea name="bericht" required></textarea></label>
+          <div><button class="btn" type="submit">Verstuur bericht</button></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Inexo Solutions, Buitenkaag</p>
+      <p>KVK 42060394</p>
+    </div>
+  </footer>
+</body>
+</html>
